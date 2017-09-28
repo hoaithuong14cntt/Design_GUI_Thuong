@@ -1,0 +1,280 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.header {
+	background-color: #FFF;
+	.container {
+		.header-component {
+			width: 80%;
+			margin: 0 auto !important;
+			font-size: 20px;
+			display: flex;
+			.logo {
+				flex: 1;
+				.title {
+					color: #3CC3B5;
+				}
+			}
+
+			.search-component {
+				flex: 4;
+				padding: 20px;
+				input {
+					font-size: 12px;
+					padding: 5px;
+					width: 350px;
+					color: #7f8c8d;
+					font-weight: bold;
+					border: 2px solid #bdc3c7;
+				}
+				button {
+					font-size: 12px;
+					padding: 5px;
+					background-color: #3CC3B5;
+					border: 2px solid #3CC3B5;
+					color: #fff;
+					font-weight: bold;
+				}
+			}
+
+			.cart-group {
+				flex: 1;
+				display: flex;
+				padding-top: 20px;
+				.cart-img {
+					margin: 0 12px 0 30px;
+					width: 35px;
+					height: 35px;
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.money {
+					color: #7f8c8d;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+.body {
+	background-color: #3EC1B7;
+	.nav-bar1 {
+		background-color: #4CCFC1;
+		.container {
+			ul {
+				padding: 0;
+				margin: 0;
+				li {
+					display: inline;
+					.item {
+						line-height: 50px;
+						padding: 0 14px;
+						color: #FFF;
+						font-size: 18px;
+						font-weight: bold;
+						text-decoration: none;
+						border-right: 3px solid #ecf0f1;
+					}
+				}
+			}
+		}
+	}
+	.info {
+		display: flex;
+		.img-view {
+
+			margin: 0 100px 0 150px;
+			width: 300px;
+			height: 400px;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.info-details {
+			color: #FFF;
+			width: 500px;
+
+			h1 {
+				font-weight: bold;
+				font-size: 60px;
+			}
+
+			p {
+				font-size: 17px;
+			}
+
+			button {
+				margin-top: 10px;
+				background-color: #3EC1B7;
+				border: 3px solid #FFF;
+				border-radius: 10px;
+				padding: 10px;
+				font-weight: bold;
+				font-size: 20px;
+			}
+		}
+	}
+
+	.branded-group {
+		background-color: #FFF;
+		.container {
+			display: flex;
+			.branded-item {
+				padding: 20px 20px 20px 40px;
+				flex: 1;
+				display: flex;
+				border-right: 2px solid #bdc3c7;
+				.img-view {
+					width: 100px;
+					height: 100px;
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.info-details {
+					padding: 20px;
+					font-weight: bold;
+
+					.title {
+						color: #95a5a6;
+						font-size: 18px;
+					}
+					button {
+						color: #FFF;
+						background-color: #3CC395;
+						border: 1px solid #3CC395;
+						font-size: 15px;
+						padding: 4px 8px;
+						border-radius: 4px;
+					}
+				}
+			}
+
+			.branded-item:last-child {
+				border: none;
+			}
+
+			.branded-item:hover {
+				cursor: pointer;
+			}
+		}
+
+	}
+	.feature-products {
+		color: #FFF;
+		font-size: 30px;
+		font-weight: bold;
+		padding: 10px;
+	}
+	.branded-more {
+		background-color: #FFF;
+		padding: 0 200px 40px 200px;
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			.branded-item {
+				border: 2px solid #ecf0f1;
+				border-bottom: 10px solid #3CC395;
+				margin: 50px 30px 0 30px;
+				padding: 20px;
+				width: 20%;
+				.img-view {
+					width: 180px;
+					height: 180px;
+					img {
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.info-details {
+					padding-top: 20px;
+					color: #95a5a6;
+					font-weight: bold;
+					font-size: 20px;
+					.title {
+						text-align: center;
+					}
+					.group {
+						width: 90%;
+						margin: 10px auto;
+						display: flex;
+						.price {
+							padding: 0 8px;
+						}
+						button {
+							background-color: #3CC395;
+							border: 1px solid #3CC395;
+							color: #FFF;
+							font-size: 16px;
+							padding: 4px 8px;
+							border-radius: 4px;
+						}				
+					}
+				}
+			}
+
+			.branded-item:hover {
+				cursor: pointer;
+				box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+			}
+		}
+	}
+}
+
+.footer {
+	color: #FFF;
+	.linking-group {
+		background-color: #3CC3B5;
+		.container {
+			padding: 20px 120px 40px 120px;
+			display: flex;
+			.linking-item {
+				margin: 0 auto;
+				.title {
+					font-size: 22px;
+					font-weight: bold;
+					padding: 12px 0;
+				}
+				.link-detail{
+					font-size: 15px;
+					padding: 3px 0;
+				}
+				.link-detail:hover {
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.copy-right {
+		background-color: #2DA89B;
+		text-align: center;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 10px 0;
+	}
+}
+
+.carousel {
+	width: 100vw;
+	.active {
+		display: flex;
+		.img-view {
+		}
+		.info-details {
+		}
+	}
+}
+
+.carousel-control {
+	background: none;
+}
